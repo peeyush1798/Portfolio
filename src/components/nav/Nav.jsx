@@ -12,7 +12,7 @@ const Nav = () => {
       <a href="#"><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><TfiBookmarkAlt/></a>
-      <a href="#services"><RiServiceLine/></a>
+      <a href="#testimonials"><RiServiceLine/></a>
       <a href="#contact"><LuMessagesSquare/></a>
     </nav>
   )

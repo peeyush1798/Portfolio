@@ -42,7 +42,7 @@ header{
 /* Image */
 
 .me{
-    background: linear-gradient(rgb(62, 62, 234), transparent);
+    background: linear-gradient(rgb(45, 45, 142), transparent);
     /* width: -22rem;
     height: -30rem; */
     /* position: relative; */
@@ -57,12 +57,16 @@ header{
     right: 0;
     top: 0;
     display: block;
-    height: 230px;
-    width: 220px;
+    height: 210px;
+    width: 200px;
     text-indent: -999em;
     text-decoration: none;
     margin-top: -37px;
     margin-right: -120px;
+}
+
+.me:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
 }
 
 /* Scroll Down */

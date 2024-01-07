@@ -1,6 +1,7 @@
 //type "rafce" for structure
 import React from 'react'
 import Header from './components/header/Header'
+import Corousel from './components/centrecarousel/Corousel'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
@@ -14,14 +15,15 @@ const App = () => {
   return (
     <>
     <Header/>
+    {/* <Corousel/> */}
     <Nav/>
     <About/>
     <Experience/>
-    <Services/>
+    {/* <Services/> */}
     <Portfolio/>
     <Testimonials/>
     <Contact/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }
